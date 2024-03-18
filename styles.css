@@ -1,1 +1,30 @@
 /* your code */
+div{
+	border-radius:20px;
+
+	overflow:hidden;
+}
+
+table thead{
+	display:block;
+	background:hsl(200 100% 50%);
+	text-align:left
+	
+}
+table thead th:first-child,table tbody tr td:first-child{
+	width:150px;
+	padding-left:16px;
+}
+table tbody,tr{
+	display:block;
+}
+table tbody tr{
+	background:hsl(0 0% 98%);
+}
+table tbody tr:nth-of-type(2n){
+	background:hsl(0 0% 80%);
+}
+th,td{
+	width:100px;
+	padding:8px 0px;
+}
